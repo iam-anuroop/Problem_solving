@@ -302,19 +302,19 @@
 #     print()
 
 
-n=5
-for i in range(1,n+1):
-    for j in range(i):
-        print('*',end='')
-    for k in range(2*n-2*i):
-        print('-',end='')
-    for l in range(i):
-        print('*',end='')
-    print()
-for j in range(n):
-    for k in range(n-j-1):
-        print('*',end='')
-    print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print('*',end='')
+#     for k in range(2*n-2*i):
+#         print('-',end='')
+#     for l in range(i):
+#         print('*',end='')
+#     print()
+# for j in range(n):
+#     for k in range(n-j-1):
+#         print('*',end='')
+#     print()
 
 
 
