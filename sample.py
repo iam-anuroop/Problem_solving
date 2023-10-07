@@ -73,3 +73,22 @@
 #                 nums[x] = nums[i]
 #                 x += 1
 #         return x
+
+
+# # leetcode 27
+# class Solution:
+#     def removeElement(self, nums: List[int], val: int) -> int:
+#         count = 0
+#         for i in range(len(nums)):
+#             if nums[i]!=val:
+#                 nums[count]=nums[i]
+#                 count+=1
+#         return count
+
+# # leetcode 28
+# class Solution:
+#     def strStr(self, haystack: str, needle: str) -> int:
+#         try:
+#             return haystack.index(needle)
+#         except:
+#             return -1
