@@ -104,3 +104,41 @@
 #         return curr
 
 # print(climbStairs(4))
+
+
+# node in python
+# class Node:
+#     def _init_(self,data):
+#         self.data = data
+#         self.next = None
+        
+# class LinkedList:
+#     def _init_(self):
+#         self.head = None
+        
+#     def append(self,data):
+#         new_node = Node(data)
+#         if self.head is None:
+#             self.head = new_node
+#             return
+#         n = self.head
+#         while n.next:
+#             n = n.next
+#         n.next = new_node    
+        
+              
+#     def print(self):
+#         current = self.head
+#         while current:
+#             print(current.data)
+#             current = current.next
+            
+    
+#     def _len_(self):
+#         count = 0
+#         current = self.head
+#         list1 = []
+#         while current is not None:
+#             current = current.next
+#             count +=1
+#         return count
