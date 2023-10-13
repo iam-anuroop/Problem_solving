@@ -142,3 +142,25 @@
 #             current = current.next
 #             count +=1
 #         return count
+
+
+# #not woeking code its sucks
+# cost = [0,1,2,2]
+# def minCostClimbingStairs(cost) -> int:
+#     total=0
+#     index=-1
+#     for i in range(len(cost)):
+#         try:
+#             if cost[index+1]<cost[index+2] and cost[index+2]>(cost[index+3]+cost[index+1]):
+#                 total+=cost[index+1]
+#                 index+=1
+#             else:
+#                 total+=cost[index+2]
+#                 index+=2
+#         except:
+#             if cost[-1]>cost[-2]:
+#                 return total+cost[-2]
+#             return total
+#     return total
+
+# minCostClimbingStairs(cost)
